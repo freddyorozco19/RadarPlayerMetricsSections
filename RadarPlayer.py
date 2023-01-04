@@ -10,7 +10,7 @@ Powered by: Win Stats
 import pandas as pd
 import numpy as np
 import streamlit as st
-from mplsoccer.radar_chart2 import Radar
+from radar_chart2 import Radar
 import matplotlib.font_manager as font_manager
 import matplotlib.patheffects as path_effects
 import matplotlib.pyplot as plt
