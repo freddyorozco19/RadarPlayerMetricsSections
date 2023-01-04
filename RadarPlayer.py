@@ -20,11 +20,11 @@ import io
 
 ##################################################################################################################################
 ## Import resources
-font_path = 'Resources/fonts/keymer-bold.otf'  # Your font path goes here
+font_path = 'keymer-bold.otf'  # Your font path goes here
 font_manager.fontManager.addfont(font_path)
 prop = font_manager.FontProperties(fname=font_path)
 
-font_path = 'Resources/fonts/BasierCircle-Italic.ttf'  # Your font path goes here
+font_path = 'BasierCircle-Italic.ttf'  # Your font path goes here
 font_manager.fontManager.addfont(font_path)
 prop1 = font_manager.FontProperties(fname=font_path)
 
