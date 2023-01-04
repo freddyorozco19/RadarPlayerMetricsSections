@@ -16,3 +16,4 @@ sunpy
 astropy
 pydeck
 scipy
+mplsoccer
