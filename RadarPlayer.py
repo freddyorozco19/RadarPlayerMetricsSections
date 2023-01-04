@@ -54,7 +54,7 @@ df8 = pd.read_excel('LigaUruguay22_FullSeason_AllMetricsCalculated_DataCleaning.
 df9 = pd.read_excel('LigaVenezuela22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df10 = pd.read_excel('LigaBrasil22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df11 = pd.read_excel('LigaMéxico22_FullApertura_AllMetricsCalculated_DataCleaning.xlsx')
-df12 = pd.read_excel('MLS22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
+df12 = pd.read_excel('MLS22_FullSeasonT_AllMetricsCalculated_DataCleaning.xlsx')
 
 ######################################################################################################################################################################################################################################################################################################################################################################################################
 #Streamlit configuration
