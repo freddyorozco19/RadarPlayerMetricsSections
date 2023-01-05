@@ -1,9 +1,3 @@
-""" A Python module for plotting radar-chart.
-
-Authors: Anmol_Durgapal(@slothfulwave612) and Andrew Rowlinson (@numberstorm)
-
-The radar-chart theme is inspired by StatsBomb/Rami_Moghadam.
-"""
 
 import textwrap
 
@@ -151,8 +145,8 @@ max_range=[10, 10, 10])
         """
         if ax is None:
             fig, ax = plt.subplots(figsize=figsize, dpi=650, **kwargs)
-            img = plt.imread("back3.png")
-            ax.imshow(img, extent=[-10, 10, -10, 10])
+            #img = plt.imread("back3.png")
+            #ax.imshow(img, extent=[-10, 10, -10, 10])
             ax.axis("off")       
             fig.patch.set_visible(False)
             self._setup_axis(ax=ax, facecolor=facecolor)
