@@ -66,7 +66,7 @@ with st.sidebar:
     st.image("https://i.ibb.co/qjvrH5y/win.png", width=250) 
     
     #COUNTRY CHOISE
-    countries = ["Todos los países", "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela", "ColombiaB", "Colombia2"]
+    countries = ["Todos los países", "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela", "México", "Estados Unidos"]
     cousel = st.selectbox("Seleccionar país:", countries)
     if cousel == "Colombia":
         df = df1
