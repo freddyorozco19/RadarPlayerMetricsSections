@@ -54,7 +54,7 @@ df8 = pd.read_excel('LigaUruguay22_FullSeason_AllMetricsCalculated_DataCleaning.
 df9 = pd.read_excel('LigaVenezuela22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df10 = pd.read_excel('LigaBrasil22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df11 = pd.read_excel('LigaMéxico22_FullApertura_AllMetricsCalculated_DataCleaning.xlsx')
-df12 = pd.read_excel('MLS22_FullSeasonT_AllMetricsCalculated_DataCleaning.xlsx')
+df12 = pd.read_excel('ConmebolU20_MD10_AllMetricsCalculated_DataCleaning.xlsx')
 
 ######################################################################################################################################################################################################################################################################################################################################################################################################
 #Streamlit configuration
@@ -66,7 +66,7 @@ with st.sidebar:
     st.image("https://i.ibb.co/qjvrH5y/win.png", width=250) 
     
     #COUNTRY CHOISE
-    countries = ["Todos los países", "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela", "México", "Estados Unidos"]
+    countries = ["Todos los países", "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela", "México", "Conmebol U20"]
     cousel = st.selectbox("Seleccionar país:", countries)
     if cousel == "Colombia":
         df = df1
@@ -90,7 +90,7 @@ with st.sidebar:
         df = df10
     elif cousel == "México":
         df = df11
-    elif cousel == "Estados Unidos":
+    elif cousel == "Conmebol U20":
         df = df12     
     elif cousel == "Todos los países":
         df = pd.concat([df1, df2, df3, df4, df5, df6, df7, df8, df9, df10, df11], axis = 0)
