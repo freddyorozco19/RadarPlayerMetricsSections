@@ -88,7 +88,7 @@ with st.sidebar:
         df = df9
     elif cousel == "Brasil":
         df = df10
-    elif cousel == "México":
+    elif cousel == "Alemania":
         df = df11
     elif cousel == "Conmebol U20":
         df = df12     
