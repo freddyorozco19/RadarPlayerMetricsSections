@@ -53,7 +53,7 @@ df7 = pd.read_excel('LigaPerú22_FullSeason_AllMetricsCalculated_DataCleaning.xl
 df8 = pd.read_excel('LigaUruguay22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df9 = pd.read_excel('LigaVenezuela22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df10 = pd.read_excel('LigaBrasil22_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
-df11 = pd.read_excel('LigaMéxico22_FullApertura_AllMetricsCalculated_DataCleaning.xlsx')
+df11 = pd.read_excel('Bundesliga2223_FullSeason_AllMetricsCalculated_DataCleaning.xlsx')
 df12 = pd.read_excel('ConmebolU20_2022_MD10_AllMetricsCalculated_DataCleaning.xlsx')
 
 ######################################################################################################################################################################################################################################################################################################################################################################################################
@@ -66,7 +66,7 @@ with st.sidebar:
     st.image("https://i.ibb.co/qjvrH5y/win.png", width=250) 
     
     #COUNTRY CHOISE
-    countries = ["Todos los países", "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela", "México", "Conmebol U20"]
+    countries = ["Todos los países", "Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela", "Alemania", "Conmebol U20"]
     cousel = st.selectbox("Seleccionar país:", countries)
     if cousel == "Colombia":
         df = df1
